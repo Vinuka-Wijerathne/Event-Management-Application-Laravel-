@@ -63,7 +63,7 @@ This application provides an interface for a company to showcase upcoming events
 
 Create a `.env` file: Copy the `.env.example` file to `.env` and update the necessary configuration details:
 
-```plaintext
+```plaintext                                                                                                    
 APP_NAME=EventManagementApp
 APP_URL=http://localhost:8000
 
@@ -71,6 +71,7 @@ DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=your_database_name
+```
 
 ## Usage
 After starting the server, access the application at [http://localhost:8000](http://localhost:8000).
